@@ -1,0 +1,30 @@
+.gradle/
+.idea/
+local.properties
+**/build/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Private signing material and credentials
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.key
+*.pem
+**/keystore.properties
+**/keys/
+.env
+.env.*
+!.env.example
+**/credentials.json
+**/service-account*.json
+# Generated artifacts
+**/out/
+*.apk
+*.aab
+__pycache__/
+*.pyc

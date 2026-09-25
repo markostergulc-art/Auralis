@@ -1,0 +1,1217 @@
+[
+  {
+    "id": "focused_calm",
+    "category": "focus",
+    "evidence": "emerging",
+    "minutes": 25,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "ambientEnabled": true,
+      "ambientBrightness": 42,
+      "ambientMovement": 10,
+      "ambientDensity": 35,
+      "ambientLevel": 9,
+      "monauralEnabled": true,
+      "monauralCarrier": 200,
+      "monauralBeat": 10,
+      "monauralDepth": 35,
+      "monauralLevel": 6
+    },
+    "text": {
+      "en": {
+        "name": "Focused Calm",
+        "subtitle": "Stable ambient sound with a mild 10 Hz monaural beat."
+      },
+      "de": {
+        "name": "Ruhiger Fokus",
+        "subtitle": "Stabile Ambient-Fläche mit mildem 10-Hz-Monaural-Beat."
+      },
+      "hr": {
+        "name": "Mirna koncentracija",
+        "subtitle": "Stabilan ambijent uz blagi monauralni beat od 10 Hz."
+      }
+    },
+    "rationale": "focus_monaural"
+  },
+  {
+    "id": "deep_work",
+    "category": "focus",
+    "evidence": "experimental",
+    "minutes": 40,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "noiseType": "brown",
+      "noiseLevel": 8,
+      "ambientEnabled": true,
+      "ambientBrightness": 32,
+      "ambientMovement": 5,
+      "ambientDensity": 25,
+      "ambientLevel": 5,
+      "monauralEnabled": true,
+      "monauralCarrier": 200,
+      "monauralBeat": 9,
+      "monauralDepth": 25,
+      "monauralLevel": 4
+    },
+    "text": {
+      "en": {
+        "name": "Deep Work",
+        "subtitle": "Low-information brown noise and a very mild rhythmic layer."
+      },
+      "de": {
+        "name": "Tiefes Arbeiten",
+        "subtitle": "Informationsarmes Brown Noise mit sehr milder Rhythmuskomponente."
+      },
+      "hr": {
+        "name": "Duboki rad",
+        "subtitle": "Brown noise s malo informacija i vrlo blagim ritmičkim slojem."
+      }
+    },
+    "rationale": "deep_work"
+  },
+  {
+    "id": "reading_focus",
+    "category": "focus",
+    "evidence": "emerging",
+    "minutes": 30,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "noiseType": "pink",
+      "noiseLevel": 10
+    },
+    "text": {
+      "en": {
+        "name": "Reading Focus",
+        "subtitle": "Pink noise only, without pulses or spatial motion."
+      },
+      "de": {
+        "name": "Lesefokus",
+        "subtitle": "Nur Pink Noise, ohne Impulse oder räumliche Bewegung."
+      },
+      "hr": {
+        "name": "Fokus za čitanje",
+        "subtitle": "Samo pink noise, bez impulsa i prostornog kretanja."
+      }
+    },
+    "rationale": "mask_stable"
+  },
+  {
+    "id": "analytical_focus",
+    "category": "focus",
+    "evidence": "emerging",
+    "minutes": 25,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "ambientEnabled": true,
+      "ambientBrightness": 45,
+      "ambientMovement": 5,
+      "ambientDensity": 30,
+      "ambientLevel": 6,
+      "monauralEnabled": true,
+      "monauralCarrier": 220,
+      "monauralBeat": 8,
+      "monauralDepth": 50,
+      "monauralLevel": 7
+    },
+    "text": {
+      "en": {
+        "name": "Analytical Focus",
+        "subtitle": "220/228 Hz monaural beating under a restrained ambient bed."
+      },
+      "de": {
+        "name": "Analytischer Fokus",
+        "subtitle": "220/228-Hz-Monaural-Beat unter einer zurückhaltenden Ambient-Fläche."
+      },
+      "hr": {
+        "name": "Analitički fokus",
+        "subtitle": "Monauralni 220/228 Hz beat ispod suzdržane ambijentalne podloge."
+      }
+    },
+    "rationale": "analytical"
+  },
+  {
+    "id": "distraction_mask",
+    "category": "focus",
+    "evidence": "emerging",
+    "minutes": 30,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "noiseType": "pink",
+      "noiseLevel": 13
+    },
+    "text": {
+      "en": {
+        "name": "Distraction Mask",
+        "subtitle": "Steady pink noise for masking irregular environmental sounds."
+      },
+      "de": {
+        "name": "Ablenkungsmaske",
+        "subtitle": "Stetiges Pink Noise zum Maskieren unregelmäßiger Umgebungsgeräusche."
+      },
+      "hr": {
+        "name": "Maskiranje smetnji",
+        "subtitle": "Stabilan pink noise za maskiranje nepravilnih zvukova iz okoline."
+      }
+    },
+    "rationale": "mask_stable"
+  },
+  {
+    "id": "light_attention",
+    "category": "focus",
+    "evidence": "experimental",
+    "minutes": 20,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": true,
+      "rate": 3,
+      "dynamics": 5,
+      "randomTiming": 5,
+      "durationUs": 55,
+      "ambientEnabled": true,
+      "ambientBrightness": 40,
+      "ambientMovement": 5,
+      "ambientDensity": 25,
+      "ambientLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Light Attention",
+        "subtitle": "Sparse 3-pulse/s events over a quiet ambient background."
+      },
+      "de": {
+        "name": "Leichte Aufmerksamkeit",
+        "subtitle": "Sparsame 3-Impulse/s über ruhigem Ambient-Hintergrund."
+      },
+      "hr": {
+        "name": "Lagana pažnja",
+        "subtitle": "Rijetki impulsi 3/s preko tihe ambijentalne podloge."
+      }
+    },
+    "rationale": "pulse_attention"
+  },
+  {
+    "id": "calm",
+    "category": "relax",
+    "evidence": "supported",
+    "minutes": 15,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "naturalType": "rain",
+      "naturalLevel": 13,
+      "motionEnabled": true,
+      "motionCycle": 18,
+      "motionDepth": 18,
+      "motionLevel": 4
+    },
+    "text": {
+      "en": {
+        "name": "Calm",
+        "subtitle": "Procedural rain with very slow, shallow stereo movement."
+      },
+      "de": {
+        "name": "Ruhe",
+        "subtitle": "Prozeduraler Regen mit sehr langsamer, flacher Stereobewegung."
+      },
+      "hr": {
+        "name": "Smirenje",
+        "subtitle": "Proceduralna kiša s vrlo sporim i blagim stereo kretanjem."
+      }
+    },
+    "rationale": "nature_relax"
+  },
+  {
+    "id": "deep_relax",
+    "category": "relax",
+    "evidence": "supported",
+    "minutes": 12,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "breathEnabled": true,
+      "breathIn": 4,
+      "breathOut": 6,
+      "breathPause": 0,
+      "breathLevel": 9,
+      "naturalType": "rain",
+      "naturalLevel": 9
+    },
+    "text": {
+      "en": {
+        "name": "Deep Relax",
+        "subtitle": "4/6 slow breathing with a soft rain background."
+      },
+      "de": {
+        "name": "Tiefe Entspannung",
+        "subtitle": "Langsames 4/6-Atmen mit sanftem Regen."
+      },
+      "hr": {
+        "name": "Duboko opuštanje",
+        "subtitle": "Sporo 4/6 disanje uz tihu kišu."
+      }
+    },
+    "rationale": "breath_46"
+  },
+  {
+    "id": "after_work",
+    "category": "relax",
+    "evidence": "supported",
+    "minutes": 20,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "naturalType": "ocean",
+      "naturalLevel": 11,
+      "ambientEnabled": true,
+      "ambientBrightness": 30,
+      "ambientMovement": 12,
+      "ambientDensity": 28,
+      "ambientLevel": 6,
+      "motionEnabled": true,
+      "motionCycle": 18,
+      "motionDepth": 18,
+      "motionLevel": 4
+    },
+    "text": {
+      "en": {
+        "name": "After Work",
+        "subtitle": "Ocean texture and slow spatial drift for decompression after sustained work."
+      },
+      "de": {
+        "name": "Nach der Arbeit",
+        "subtitle": "Meeresklang und langsame Raumbewegung zum Herunterfahren nach längerer Arbeit."
+      },
+      "hr": {
+        "name": "Nakon posla",
+        "subtitle": "Zvuk oceana i sporo prostorno kretanje za prijelaz nakon duljeg rada."
+      }
+    },
+    "rationale": "decompress"
+  },
+  {
+    "id": "mental_reset",
+    "category": "relax",
+    "evidence": "experimental",
+    "minutes": 12,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": true,
+      "rate": 1.8,
+      "dynamics": 10,
+      "randomTiming": 10,
+      "durationUs": 55,
+      "naturalType": "stream",
+      "naturalLevel": 10
+    },
+    "text": {
+      "en": {
+        "name": "Mental Reset",
+        "subtitle": "A stream bed with sparse 1.8-pulse/s transients and mild variability."
+      },
+      "de": {
+        "name": "Mentaler Reset",
+        "subtitle": "Bachklang mit sparsamen 1,8-Impuls/s und leichter Variabilität."
+      },
+      "hr": {
+        "name": "Mentalni reset",
+        "subtitle": "Žubor potoka uz rijetke impulse 1,8/s i blagu varijabilnost."
+      }
+    },
+    "rationale": "pulse_reset"
+  },
+  {
+    "id": "quiet_room",
+    "category": "relax",
+    "evidence": "supported",
+    "minutes": 20,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "noiseType": "pink",
+      "noiseLevel": 6,
+      "naturalType": "rain",
+      "naturalLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Quiet Room",
+        "subtitle": "Very low pink noise plus rain for a stable neutral acoustic room."
+      },
+      "de": {
+        "name": "Ruhiger Raum",
+        "subtitle": "Sehr leises Pink Noise plus Regen für einen stabilen neutralen Klangraum."
+      },
+      "hr": {
+        "name": "Tiha soba",
+        "subtitle": "Vrlo tihi pink noise i kiša za stabilno neutralno zvučno okruženje."
+      }
+    },
+    "rationale": "quiet_room"
+  },
+  {
+    "id": "evening_wind_down",
+    "category": "relax",
+    "evidence": "supported",
+    "minutes": 25,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "naturalType": "wind",
+      "naturalLevel": 10,
+      "ambientEnabled": true,
+      "ambientBrightness": 24,
+      "ambientMovement": 8,
+      "ambientDensity": 28,
+      "ambientLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Evening Wind-Down",
+        "subtitle": "Low-brightness wind and ambient layers without discrete beats."
+      },
+      "de": {
+        "name": "Abendliches Herunterfahren",
+        "subtitle": "Dunkler Wind- und Ambient-Klang ohne diskrete Beats."
+      },
+      "hr": {
+        "name": "Večernje smirivanje",
+        "subtitle": "Tamniji zvuk vjetra i ambijenta bez diskretnih beatova."
+      }
+    },
+    "rationale": "evening"
+  },
+  {
+    "id": "cardiac_calm_breathing",
+    "category": "breathing",
+    "evidence": "supported",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "breathEnabled": true,
+      "breathIn": 4,
+      "breathOut": 6,
+      "breathPause": 0,
+      "breathLevel": 9,
+      "naturalType": "stream",
+      "naturalLevel": 6
+    },
+    "text": {
+      "en": {
+        "name": "Cardiorespiratory Calm Breathing",
+        "subtitle": "4 s inhale / 6 s exhale with a very quiet stream background."
+      },
+      "de": {
+        "name": "Kardiorespiratorisch ruhiges Atmen",
+        "subtitle": "4 s Einatmen / 6 s Ausatmen mit sehr leisem Bachklang."
+      },
+      "hr": {
+        "name": "Kardiorespiratorno mirno disanje",
+        "subtitle": "4 s udah / 6 s izdah uz vrlo tihi zvuk potoka."
+      }
+    },
+    "rationale": "cardiorespiratory"
+  },
+  {
+    "id": "hrv_breathing_46",
+    "category": "breathing",
+    "evidence": "supported",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "breathEnabled": true,
+      "breathIn": 4,
+      "breathOut": 6,
+      "breathPause": 0,
+      "breathLevel": 10
+    },
+    "text": {
+      "en": {
+        "name": "HRV-Oriented Breathing 4/6",
+        "subtitle": "A minimal 10-second breathing cycle without extra sound layers."
+      },
+      "de": {
+        "name": "HRV-orientiertes Atmen 4/6",
+        "subtitle": "Minimaler 10-Sekunden-Atemzyklus ohne zusätzliche Klangschichten."
+      },
+      "hr": {
+        "name": "HRV-orijentirano disanje 4/6",
+        "subtitle": "Minimalni 10-sekundni ciklus disanja bez dodatnih zvučnih slojeva."
+      }
+    },
+    "rationale": "cardiorespiratory"
+  },
+  {
+    "id": "balanced_breathing_55",
+    "category": "breathing",
+    "evidence": "supported",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "breathEnabled": true,
+      "breathIn": 5,
+      "breathOut": 5,
+      "breathPause": 0,
+      "breathLevel": 10
+    },
+    "text": {
+      "en": {
+        "name": "Balanced Breathing 5/5",
+        "subtitle": "Symmetric five-second inhale and five-second exhale."
+      },
+      "de": {
+        "name": "Ausgeglichenes Atmen 5/5",
+        "subtitle": "Symmetrisch fünf Sekunden ein- und fünf Sekunden ausatmen."
+      },
+      "hr": {
+        "name": "Uravnoteženo disanje 5/5",
+        "subtitle": "Simetričnih pet sekundi udaha i pet sekundi izdaha."
+      }
+    },
+    "rationale": "balanced_breath"
+  },
+  {
+    "id": "long_exhale",
+    "category": "breathing",
+    "evidence": "supported",
+    "minutes": 8,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "breathEnabled": true,
+      "breathIn": 4,
+      "breathOut": 7,
+      "breathPause": 0,
+      "breathLevel": 9
+    },
+    "text": {
+      "en": {
+        "name": "Long Exhale",
+        "subtitle": "Comfortable 4-second inhale followed by a longer 7-second exhale."
+      },
+      "de": {
+        "name": "Lange Ausatmung",
+        "subtitle": "Bequeme 4-Sekunden-Einatmung mit längerer 7-Sekunden-Ausatmung."
+      },
+      "hr": {
+        "name": "Dugi izdah",
+        "subtitle": "Ugodan udah od 4 sekunde i dulji izdah od 7 sekundi."
+      }
+    },
+    "rationale": "long_exhale"
+  },
+  {
+    "id": "respiratory_ease",
+    "category": "breathing",
+    "evidence": "supported",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "breathEnabled": true,
+      "breathIn": 4,
+      "breathOut": 6,
+      "breathPause": 0,
+      "breathLevel": 8,
+      "naturalType": "ocean",
+      "naturalLevel": 7
+    },
+    "text": {
+      "en": {
+        "name": "Respiratory Ease",
+        "subtitle": "4/6 breathing paced against an ocean-like envelope."
+      },
+      "de": {
+        "name": "Ruhiges Atemgefühl",
+        "subtitle": "4/6-Atmung vor einer meeresähnlichen Klanghülle."
+      },
+      "hr": {
+        "name": "Lakoća disanja",
+        "subtitle": "4/6 disanje uz zvučnu ovojnicu nalik oceanu."
+      }
+    },
+    "rationale": "respiratory"
+  },
+  {
+    "id": "humming_breath",
+    "category": "breathing",
+    "evidence": "emerging",
+    "minutes": 8,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "breathEnabled": true,
+      "breathIn": 4,
+      "breathOut": 6,
+      "breathPause": 0,
+      "breathLevel": 6,
+      "altMode": "humming",
+      "altLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Humming Breath",
+        "subtitle": "Four-second silent inhale and six-second humming exhale guide."
+      },
+      "de": {
+        "name": "Summ-Atem",
+        "subtitle": "Vier Sekunden still einatmen und sechs Sekunden summend ausatmen."
+      },
+      "hr": {
+        "name": "Humming disanje",
+        "subtitle": "Četiri sekunde tihog udaha i šest sekundi izdaha uz pjevušenje."
+      }
+    },
+    "rationale": "humming"
+  },
+  {
+    "id": "sleep_preparation",
+    "category": "sleep",
+    "evidence": "emerging",
+    "minutes": 30,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "noiseType": "pink",
+      "noiseLevel": 6,
+      "naturalType": "ocean",
+      "naturalLevel": 6
+    },
+    "text": {
+      "en": {
+        "name": "Sleep Preparation",
+        "subtitle": "Low pink noise and ocean texture without pulses or beats."
+      },
+      "de": {
+        "name": "Schlafvorbereitung",
+        "subtitle": "Leises Pink Noise und Meeresklang ohne Impulse oder Beats."
+      },
+      "hr": {
+        "name": "Priprema za spavanje",
+        "subtitle": "Tihi pink noise i ocean bez impulsa ili beatova."
+      }
+    },
+    "rationale": "sleep_prep"
+  },
+  {
+    "id": "deep_night",
+    "category": "sleep",
+    "evidence": "experimental",
+    "minutes": 30,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "noiseType": "brown",
+      "noiseLevel": 7,
+      "ambientEnabled": true,
+      "ambientBrightness": 15,
+      "ambientMovement": 4,
+      "ambientDensity": 20,
+      "ambientLevel": 4
+    },
+    "text": {
+      "en": {
+        "name": "Deep Night",
+        "subtitle": "Low brown noise with a dark, nearly static ambient bed."
+      },
+      "de": {
+        "name": "Tiefe Nacht",
+        "subtitle": "Leises Brown Noise mit dunkler, nahezu statischer Ambient-Fläche."
+      },
+      "hr": {
+        "name": "Duboka noć",
+        "subtitle": "Tihi brown noise uz tamnu, gotovo statičnu ambijentalnu podlogu."
+      }
+    },
+    "rationale": "night_low"
+  },
+  {
+    "id": "rain_at_night",
+    "category": "sleep",
+    "evidence": "emerging",
+    "minutes": 35,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "naturalType": "rain",
+      "naturalLevel": 10
+    },
+    "text": {
+      "en": {
+        "name": "Rain at Night",
+        "subtitle": "Stable procedural rain with no beat or click layer."
+      },
+      "de": {
+        "name": "Regen bei Nacht",
+        "subtitle": "Stabiler prozeduraler Regen ohne Beat- oder Klickschicht."
+      },
+      "hr": {
+        "name": "Noćna kiša",
+        "subtitle": "Stabilna proceduralna kiša bez beata ili klikova."
+      }
+    },
+    "rationale": "sleep_nature"
+  },
+  {
+    "id": "ocean_night",
+    "category": "sleep",
+    "evidence": "emerging",
+    "minutes": 35,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "naturalType": "ocean",
+      "naturalLevel": 9
+    },
+    "text": {
+      "en": {
+        "name": "Ocean Night",
+        "subtitle": "Slow ocean-like amplitude movement without discrete rhythm."
+      },
+      "de": {
+        "name": "Meeresnacht",
+        "subtitle": "Langsame meeresartige Pegelbewegung ohne diskreten Rhythmus."
+      },
+      "hr": {
+        "name": "Noćni ocean",
+        "subtitle": "Sporo oceansko gibanje glasnoće bez diskretnog ritma."
+      }
+    },
+    "rationale": "sleep_nature"
+  },
+  {
+    "id": "slow_breath_before_sleep",
+    "category": "sleep",
+    "evidence": "supported",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "breathEnabled": true,
+      "breathIn": 4,
+      "breathOut": 6,
+      "breathPause": 0,
+      "breathLevel": 8,
+      "noiseType": "pink",
+      "noiseLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Slow Breath Before Sleep",
+        "subtitle": "4/6 breathing over very low pink noise."
+      },
+      "de": {
+        "name": "Langsames Atmen vor dem Schlaf",
+        "subtitle": "4/6-Atmung über sehr leisem Pink Noise."
+      },
+      "hr": {
+        "name": "Sporo disanje prije spavanja",
+        "subtitle": "4/6 disanje preko vrlo tihog pink noisea."
+      }
+    },
+    "rationale": "sleep_breath"
+  },
+  {
+    "id": "minimal_night",
+    "category": "sleep",
+    "evidence": "emerging",
+    "minutes": 30,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "noiseType": "pink",
+      "noiseLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Minimal Night",
+        "subtitle": "Only very low pink noise: no beats, pulses or motion."
+      },
+      "de": {
+        "name": "Minimale Nacht",
+        "subtitle": "Nur sehr leises Pink Noise: keine Beats, Impulse oder Bewegung."
+      },
+      "hr": {
+        "name": "Minimalna noć",
+        "subtitle": "Samo vrlo tihi pink noise: bez beatova, impulsa i kretanja."
+      }
+    },
+    "rationale": "minimal"
+  },
+  {
+    "id": "spatial_calm",
+    "category": "spatial",
+    "evidence": "experimental",
+    "minutes": 15,
+    "headphones": "recommended",
+    "cfg": {
+      "pulseEnabled": false,
+      "ambientEnabled": true,
+      "ambientBrightness": 35,
+      "ambientMovement": 15,
+      "ambientDensity": 30,
+      "ambientLevel": 7,
+      "motionEnabled": true,
+      "motionCycle": 18,
+      "motionDepth": 25,
+      "motionLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Spatial Calm",
+        "subtitle": "Low-depth stereo motion through a restrained ambient field."
+      },
+      "de": {
+        "name": "Räumliche Ruhe",
+        "subtitle": "Flache Stereobewegung durch eine zurückhaltende Ambient-Fläche."
+      },
+      "hr": {
+        "name": "Prostorno smirenje",
+        "subtitle": "Blago stereo kretanje kroz suzdržanu ambijentalnu podlogu."
+      }
+    },
+    "rationale": "spatial_motion"
+  },
+  {
+    "id": "left_right_flow",
+    "category": "spatial",
+    "evidence": "experimental",
+    "minutes": 15,
+    "headphones": "recommended",
+    "cfg": {
+      "pulseEnabled": false,
+      "naturalType": "stream",
+      "naturalLevel": 9,
+      "motionEnabled": true,
+      "motionCycle": 10,
+      "motionDepth": 35,
+      "motionLevel": 6
+    },
+    "text": {
+      "en": {
+        "name": "Left–Right Flow",
+        "subtitle": "A stream layer that moves gradually left to right and back."
+      },
+      "de": {
+        "name": "Links–Rechts-Fluss",
+        "subtitle": "Bachklang, der sich langsam von links nach rechts und zurück bewegt."
+      },
+      "hr": {
+        "name": "Lijevo–desno tok",
+        "subtitle": "Zvuk potoka koji se postupno kreće lijevo-desno i natrag."
+      }
+    },
+    "rationale": "spatial_motion"
+  },
+  {
+    "id": "bilateral_slow",
+    "category": "spatial",
+    "evidence": "experimental",
+    "minutes": 12,
+    "headphones": "recommended",
+    "cfg": {
+      "pulseEnabled": false,
+      "bilateralEnabled": true,
+      "bilateralRate": 0.7,
+      "bilateralSoft": 90,
+      "bilateralLevel": 5,
+      "ambientEnabled": true,
+      "ambientBrightness": 30,
+      "ambientMovement": 0,
+      "ambientDensity": 25,
+      "ambientLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Bilateral Slow",
+        "subtitle": "Soft alternating left/right audio at approximately 0.7 alternations per second."
+      },
+      "de": {
+        "name": "Langsam bilateral",
+        "subtitle": "Weiche Links/Rechts-Wechsel mit ungefähr 0,7 Wechseln pro Sekunde."
+      },
+      "hr": {
+        "name": "Sporo bilateralno",
+        "subtitle": "Mekana lijevo/desno izmjena približno 0,7 puta u sekundi."
+      }
+    },
+    "rationale": "bilateral"
+  },
+  {
+    "id": "spatial_itd_lab",
+    "category": "spatial",
+    "evidence": "research",
+    "minutes": 10,
+    "headphones": "required",
+    "cfg": {
+      "pulseEnabled": false,
+      "itdEnabled": true,
+      "itdUs": 400,
+      "itdLead": "left",
+      "itdLevel": 5
+    },
+    "text": {
+      "en": {
+        "name": "Spatial ITD Lab",
+        "subtitle": "A 400 µs left-leading interaural delay for localization exploration."
+      },
+      "de": {
+        "name": "Räumliches ITD-Labor",
+        "subtitle": "400 µs linksführende interaurale Verzögerung zur Lokalisations-Exploration."
+      },
+      "hr": {
+        "name": "Spatial ITD Lab",
+        "subtitle": "Interauralno kašnjenje 400 µs s vodećim lijevim kanalom za istraživanje lokalizacije."
+      }
+    },
+    "rationale": "itd"
+  },
+  {
+    "id": "binaural_6",
+    "category": "beats",
+    "evidence": "emerging",
+    "minutes": 15,
+    "headphones": "required",
+    "cfg": {
+      "pulseEnabled": false,
+      "binauralEnabled": true,
+      "binauralCarrier": 200,
+      "binauralBeat": 6,
+      "binauralLevel": 7
+    },
+    "text": {
+      "en": {
+        "name": "Binaural 6 Hz Exploration",
+        "subtitle": "200 Hz left / 206 Hz right; the 6 Hz difference is binaurally perceived."
+      },
+      "de": {
+        "name": "Binaural 6 Hz",
+        "subtitle": "200 Hz links / 206 Hz rechts; die 6-Hz-Differenz wird binaural wahrgenommen."
+      },
+      "hr": {
+        "name": "Binauralno 6 Hz",
+        "subtitle": "200 Hz lijevo / 206 Hz desno; razlika 6 Hz percipira se binauralno."
+      }
+    },
+    "rationale": "binaural"
+  },
+  {
+    "id": "binaural_10",
+    "category": "beats",
+    "evidence": "emerging",
+    "minutes": 15,
+    "headphones": "required",
+    "cfg": {
+      "pulseEnabled": false,
+      "binauralEnabled": true,
+      "binauralCarrier": 200,
+      "binauralBeat": 10,
+      "binauralLevel": 7
+    },
+    "text": {
+      "en": {
+        "name": "Binaural 10 Hz Exploration",
+        "subtitle": "200 Hz left / 210 Hz right for a 10 Hz binaural difference."
+      },
+      "de": {
+        "name": "Binaural 10 Hz",
+        "subtitle": "200 Hz links / 210 Hz rechts für eine binaurale 10-Hz-Differenz."
+      },
+      "hr": {
+        "name": "Binauralno 10 Hz",
+        "subtitle": "200 Hz lijevo / 210 Hz desno za binauralnu razliku 10 Hz."
+      }
+    },
+    "rationale": "binaural"
+  },
+  {
+    "id": "monaural_6",
+    "category": "beats",
+    "evidence": "emerging",
+    "minutes": 15,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "monauralEnabled": true,
+      "monauralCarrier": 200,
+      "monauralBeat": 6,
+      "monauralDepth": 60,
+      "monauralLevel": 7
+    },
+    "text": {
+      "en": {
+        "name": "Monaural 6 Hz",
+        "subtitle": "Physical 200/206 Hz acoustic beating present in both channels."
+      },
+      "de": {
+        "name": "Monaural 6 Hz",
+        "subtitle": "Physischer 200/206-Hz-Akustikbeat in beiden Kanälen."
+      },
+      "hr": {
+        "name": "Monauralno 6 Hz",
+        "subtitle": "Fizički akustički beat 200/206 Hz prisutan u oba kanala."
+      }
+    },
+    "rationale": "monaural"
+  },
+  {
+    "id": "soft_iso_6",
+    "category": "beats",
+    "evidence": "experimental",
+    "minutes": 12,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "isoEnabled": true,
+      "isoCarrier": 220,
+      "isoRate": 6,
+      "isoDepth": 45,
+      "isoSoft": 95,
+      "isoLevel": 7
+    },
+    "text": {
+      "en": {
+        "name": "Soft Isochronic 6 Hz",
+        "subtitle": "220 Hz carrier with smooth 6 Hz amplitude modulation."
+      },
+      "de": {
+        "name": "Sanft isochron 6 Hz",
+        "subtitle": "220-Hz-Träger mit weicher 6-Hz-Amplitudenmodulation."
+      },
+      "hr": {
+        "name": "Meki isochronic 6 Hz",
+        "subtitle": "Nosioc 220 Hz s glatkom amplitudnom modulacijom 6 Hz."
+      }
+    },
+    "rationale": "iso"
+  },
+  {
+    "id": "ambient_432",
+    "category": "experimental",
+    "evidence": "experimental",
+    "minutes": 12,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "altMode": "432ambient",
+      "altLevel": 7
+    },
+    "text": {
+      "en": {
+        "name": "432 Ambient",
+        "subtitle": "Ambient harmonic system referenced to A4=432 Hz."
+      },
+      "de": {
+        "name": "432 Ambient",
+        "subtitle": "Harmonisches Ambient-System mit A4=432 Hz als Stimmreferenz."
+      },
+      "hr": {
+        "name": "432 Ambient",
+        "subtitle": "Ambijentalni harmonički sustav s referencom A4=432 Hz."
+      }
+    },
+    "rationale": "freq432"
+  },
+  {
+    "id": "resonance_528",
+    "category": "experimental",
+    "evidence": "experimental",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "altMode": "528ambient",
+      "altLevel": 7
+    },
+    "text": {
+      "en": {
+        "name": "528 Resonance",
+        "subtitle": "Harmonic texture centered on 528 Hz rather than a loud bare sine."
+      },
+      "de": {
+        "name": "528 Resonanz",
+        "subtitle": "Harmonische Textur um 528 Hz statt eines lauten reinen Sinus."
+      },
+      "hr": {
+        "name": "528 Rezonanca",
+        "subtitle": "Harmonička tekstura centrirana na 528 Hz umjesto glasnog čistog sinusa."
+      }
+    },
+    "rationale": "freq528"
+  },
+  {
+    "id": "resonant_bowl",
+    "category": "experimental",
+    "evidence": "emerging",
+    "minutes": 12,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "altMode": "bowl",
+      "altLevel": 8
+    },
+    "text": {
+      "en": {
+        "name": "Resonant Bowl",
+        "subtitle": "Synthetic bowl with several inharmonic resonant partials and slow decay."
+      },
+      "de": {
+        "name": "Resonanzschale",
+        "subtitle": "Synthetische Schale mit mehreren inharmonischen Resonanzen und langsamem Abklingen."
+      },
+      "hr": {
+        "name": "Rezonantna zdjela",
+        "subtitle": "Sintetička zdjela s više neharmoničnih rezonanci i sporim raspadom."
+      }
+    },
+    "rationale": "bowl"
+  },
+  {
+    "id": "sound_bath",
+    "category": "experimental",
+    "evidence": "emerging",
+    "minutes": 15,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "altMode": "soundbath",
+      "altLevel": 8
+    },
+    "text": {
+      "en": {
+        "name": "Sound Bath",
+        "subtitle": "Slow bowl/gong-like procedural resonances with low event density."
+      },
+      "de": {
+        "name": "Sound Bath",
+        "subtitle": "Langsame schalen-/gongartige prozedurale Resonanzen mit geringer Ereignisdichte."
+      },
+      "hr": {
+        "name": "Sound Bath",
+        "subtitle": "Spore proceduralne rezonance nalik zdjelama/gongu s malom gustoćom događaja."
+      }
+    },
+    "rationale": "soundbath"
+  },
+  {
+    "id": "schumann_783",
+    "category": "experimental",
+    "evidence": "traditional",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "altMode": "schumann",
+      "altLevel": 6
+    },
+    "text": {
+      "en": {
+        "name": "7.83 Hz Schumann-Inspired",
+        "subtitle": "Audible carrier amplitude-modulated at 7.83 Hz; not an electromagnetic Schumann field."
+      },
+      "de": {
+        "name": "7,83 Hz Schumann-inspiriert",
+        "subtitle": "Hörbarer Träger mit 7,83-Hz-Amplitudenmodulation; kein elektromagnetisches Schumann-Feld."
+      },
+      "hr": {
+        "name": "7,83 Hz Schumann-inspired",
+        "subtitle": "Čujni nosioc amplitudno moduliran na 7,83 Hz; nije elektromagnetsko Schumannovo polje."
+      }
+    },
+    "rationale": "schumann"
+  },
+  {
+    "id": "solfeggio_528",
+    "category": "experimental",
+    "evidence": "traditional",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "altMode": "solfeggio",
+      "solfeggioHz": 528,
+      "altLevel": 6
+    },
+    "text": {
+      "en": {
+        "name": "Solfeggio 528",
+        "subtitle": "Controlled 528 Hz member of the modern Solfeggio frequency set."
+      },
+      "de": {
+        "name": "Solfeggio 528",
+        "subtitle": "Kontrollierter 528-Hz-Ton aus dem modernen Solfeggio-Frequenzsatz."
+      },
+      "hr": {
+        "name": "Solfeggio 528",
+        "subtitle": "Kontrolirani ton 528 Hz iz modernog Solfeggio skupa frekvencija."
+      }
+    },
+    "rationale": "solfeggio"
+  },
+  {
+    "id": "solfeggio_396",
+    "category": "experimental",
+    "evidence": "traditional",
+    "minutes": 10,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "altMode": "solfeggio",
+      "solfeggioHz": 396,
+      "altLevel": 6
+    },
+    "text": {
+      "en": {
+        "name": "Solfeggio 396",
+        "subtitle": "Controlled 396 Hz member of the modern Solfeggio frequency set."
+      },
+      "de": {
+        "name": "Solfeggio 396",
+        "subtitle": "Kontrollierter 396-Hz-Ton aus dem modernen Solfeggio-Frequenzsatz."
+      },
+      "hr": {
+        "name": "Solfeggio 396",
+        "subtitle": "Kontrolirani ton 396 Hz iz modernog Solfeggio skupa frekvencija."
+      }
+    },
+    "rationale": "solfeggio"
+  },
+  {
+    "id": "forest_reset",
+    "category": "relax",
+    "evidence": "emerging",
+    "minutes": 20,
+    "headphones": "optional",
+    "cfg": {
+      "pulseEnabled": false,
+      "naturalType": "forest",
+      "naturalLevel": 12,
+      "motionEnabled": true,
+      "motionCycle": 18,
+      "motionDepth": 15,
+      "motionLevel": 4
+    },
+    "text": {
+      "en": {
+        "name": "Forest Reset",
+        "subtitle": "Procedural forest ambience with barely perceptible slow stereo movement."
+      },
+      "de": {
+        "name": "Wald-Reset",
+        "subtitle": "Prozeduraler Waldklang mit kaum merklicher langsamer Stereobewegung."
+      },
+      "hr": {
+        "name": "Šumski reset",
+        "subtitle": "Proceduralni šumski ambijent s jedva primjetnim sporim stereo kretanjem."
+      }
+    },
+    "rationale": "nature_relax"
+  }
+]
